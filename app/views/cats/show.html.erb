@@ -1,0 +1,34 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Breed:</strong>
+  <%= @cat.breed %>
+</p>
+
+<p>
+  <strong>Image:</strong>
+  <%= @cat.image %>
+</p>
+
+<p>
+  <strong>Description:</strong>
+  <%= @cat.description %>
+</p>
+
+<p>
+  <strong>Maximum weight:</strong>
+  <%= @cat.maximum_weight %>
+</p>
+
+<p>
+  <strong>Average lifespan:</strong>
+  <%= @cat.average_lifespan %>
+</p>
+
+<p>
+  <strong>Location:</strong>
+  <%= @cat.location %>
+</p>
+
+<%= link_to 'Edit', edit_cat_path(@cat) %> |
+<%= link_to 'Back', cats_path %>

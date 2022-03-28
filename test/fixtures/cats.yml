@@ -1,0 +1,17 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  breed: MyString
+  image: MyString
+  description: MyString
+  maximum_weight: MyString
+  average_lifespan: MyString
+  location: MyString
+
+two:
+  breed: MyString
+  image: MyString
+  description: MyString
+  maximum_weight: MyString
+  average_lifespan: MyString
+  location: MyString
