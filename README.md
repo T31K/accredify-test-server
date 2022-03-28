@@ -1,24 +1,17 @@
-# README
+# Accredify-Frontend-Test
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Setup Instructions
+#
+#### Server
+I'm  using Ruby on Rails for quick development and easy API access as I'm only using 2 endpoints.
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+##### Prerequisites 
+- Ruby version: `2.6.3`
+- Postgesql is installed
+- Server is running on `http://localhost:3000/`
+```
+$ cd server
+$ bundle install
+$ rails s
+```
+#
